@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(42, 95, 165);
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background-image: url(../assets/img/ocean.jpg); /* Replace with your image path */
+    background-size: cover; /* Adjusts the background image size */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    position: relative; /* To set a containing block for the absolute position */
+    color: white;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.home-button {
+    position: absolute;
+    top: 20px; /* Adjust as needed */
+    right: 20px; /* Adjust as needed */
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.home-button:hover {
+    background-color: #333;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: larger;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+.media-content {
+    float: right;
+    width: calc(50% - 20px); /* Consider the margin space */
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-right: -20px; /* Move the video into the margin */
+}
+
+.section-content {
+    margin: 0 30px; /* Add margin on both sides */
+    max-width: calc(50% - 20px); /* Adjust width to fit within the margin */
+    box-sizing: border-box;
+    color: white;
+}
+
+
+.section-content p {
+
+    text-align: justify;
+}
